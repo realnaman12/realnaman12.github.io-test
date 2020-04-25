@@ -6,15 +6,13 @@ body {
 }
 
 #page-content {
-  width: 69%;
+  width: 50%;
   min-width: 500px;
-  padding: 5px;
-  margin: 3px;
   float: left;
-  border: 1px solid #2E8B57;
-  margin: 3px;
-  border-radius: 11px;
-  moz-border-radius: 11px;
-  -webkit-border-radius: 11px;
+  border: 1px solid #0a5914;
+  margin: 10px;
+  border-radius: 20px;
+  moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
   background-color: #B2FEE1;
 }
