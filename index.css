@@ -4,3 +4,8 @@ body {
   font-family: Actor;
   background-color: #8cfe75;
 }
+
+#page-content {
+  width: 50%;
+  min-width: 500px;
+}
