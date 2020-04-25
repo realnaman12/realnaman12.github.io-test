@@ -5,6 +5,11 @@ body {
   background-color: #8cfe75;
 }
 
+#content-wrapper {
+  text-align: center;
+  align: center;
+}
+
 #page-content {
   width: 50%;
   min-width: 500px;
