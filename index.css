@@ -6,6 +6,15 @@ body {
 }
 
 #page-content {
-  width: 50%;
+  width: 69%;
   min-width: 500px;
+  padding: 5px;
+  margin: 3px;
+  float: left;
+  border: 1px solid #2E8B57;
+  margin: 3px;
+  border-radius: 11px;
+  moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  background-color: #B2FEE1;
 }
