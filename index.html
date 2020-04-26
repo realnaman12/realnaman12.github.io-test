@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>naman12</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
@@ -28,14 +25,23 @@
           .replace(/'/g, "&#039;");
       });
     </script>
+    <title>naman12</title>
+    
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
-<body>
-  <div id="content-wrapper">
+  <body>
     <html-include src="header.html"></html-include>
+    <div class="container">
+      <h1>&lt;html-include&gt;</h1>
+      <p>This is how the DOM looks like at the <strong>DOMContentLoaded</strong> event (before inserting the content of &lt;pre&gt;).<br>Compare it against the raw HTML source.</p>
+      <pre></pre>
+    </div>
+    <div id="content-wrapper">
     <div id="page-content">
       <h1>Handouts!</h1>
       So, did you come looking for my handouts? You're at the right place. Most of these handouts are intended for the AIME, so for those of you looking to make the USA(J)MO in the USA or your national olympiad in your country, here are some great resources to get started with:
     </div>
   </div>
-</body>
+  </body>
 </html>
